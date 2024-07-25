@@ -1,0 +1,104 @@
+Admin
+
+    Admin Interface: http://127.0.0.1:8000/admin/
+
+Authentication
+
+    Token Obtain Pair: http://127.0.0.1:8000/api/token/ (name='token_obtain_pair')
+    Token Refresh: http://127.0.0.1:8000/api/token/refresh/ (name='token_refresh')
+    OAuth2 Provider: http://127.0.0.1:8000/o/
+    DRF Auth: http://127.0.0.1:8000/api-auth/
+
+Swagger and Redoc Documentation
+
+    Swagger UI: http://127.0.0.1:8000/swagger/ (name='schema-swagger-ui')
+    Redoc UI: http://127.0.0.1:8000/redoc/ (name='schema-redoc')
+
+User Accounts
+
+    User List: http://127.0.0.1:8000/api/users/ (name='customuser-list')
+    User List with Format: http://127.0.0.1:8000/api/users.<format>/ (name='customuser-list')
+    User Detail: http://127.0.0.1:8000/api/users/<pk>/ (name='customuser-detail')
+    User Detail with Format: http://127.0.0.1:8000/api/users/<pk>.<format>/ (name='customuser-detail')
+
+Histories
+
+    History List: http://127.0.0.1:8000/api/histories/ (name='history-list')
+    History List with Format: http://127.0.0.1:8000/api/histories.<format>/ (name='history-list')
+    History Detail: http://127.0.0.1:8000/api/histories/<pk>/ (name='history-detail')
+    History Detail with Format: http://127.0.0.1:8000/api/histories/<pk>.<format>/ (name='history-detail')
+
+Free Histories
+
+    Free History List: http://127.0.0.1:8000/api/free-histories/ (name='freehistory-list')
+    Free History List with Format: http://127.0.0.1:8000/api/free-histories.<format>/ (name='freehistory-list')
+    Free History Detail: http://127.0.0.1:8000/api/free-histories/<pk>/ (name='freehistory-detail')
+    Free History Detail with Format: http://127.0.0.1:8000/api/free-histories/<pk>.<format>/ (name='freehistory-detail')
+
+Charts
+
+    Chart List: http://127.0.0.1:8000/api/charts/ (name='chart-list')
+    Chart List with Format: http://127.0.0.1:8000/api/charts.<format>/ (name='chart-list')
+    Chart Detail: http://127.0.0.1:8000/api/charts/<pk>/ (name='chart-detail')
+    Chart Detail with Format: http://127.0.0.1:8000/api/charts/<pk>.<format>/ (name='chart-detail')
+
+Medications
+
+    Medication List: http://127.0.0.1:8000/api/medications/ (name='medication-list')
+    Medication List with Format: http://127.0.0.1:8000/api/medications.<format>/ (name='medication-list')
+    Medication Detail: http://127.0.0.1:8000/api/medications/<pk>/ (name='medication-detail')
+    Medication Detail with Format: http://127.0.0.1:8000/api/medications/<pk>.<format>/ (name='medication-detail')
+
+Orders
+
+    Order List: http://127.0.0.1:8000/api/orders/ (name='order-list')
+    Order List with Format: http://127.0.0.1:8000/api/orders.<format>/ (name='order-list')
+    Order Detail: http://127.0.0.1:8000/api/orders/<pk>/ (name='order-detail')
+    Order Detail with Format: http://127.0.0.1:8000/api/orders/<pk>.<format>/ (name='order-detail')
+
+Consents
+
+    Consent List: http://127.0.0.1:8000/api/consents/ (name='consent-list')
+    Consent List with Format: http://127.0.0.1:8000/api/consents.<format>/ (name='consent-list')
+    Consent Detail: http://127.0.0.1:8000/api/consents/<pk>/ (name='consent-detail')
+    Consent Detail with Format: http://127.0.0.1:8000/api/consents/<pk>.<format>/ (name='consent-detail')
+
+Interventions
+
+    Intervention List: http://127.0.0.1:8000/api/interventions/ (name='intervention-list')
+    Intervention List with Format: http://127.0.0.1:8000/api/interventions.<format>/ (name='intervention-list')
+    Intervention Detail: http://127.0.0.1:8000/api/interventions/<pk>/ (name='intervention-detail')
+    Intervention Detail with Format: http://127.0.0.1:8000/api/interventions/<pk>.<format>/ (name='intervention-detail')
+
+Pharmacy Orders
+
+    Pharmacy Order List: http://127.0.0.1:8000/api/pharmacy-orders/ (name='pharmacyorder-list')
+    Pharmacy Order List with Format: http://127.0.0.1:8000/api/pharmacy-orders.<format>/ (name='pharmacyorder-list')
+    Pharmacy Order Detail: http://127.0.0.1:8000/api/pharmacy-orders/<pk>/ (name='pharmacyorder-detail')
+    Pharmacy Order Detail with Format: http://127.0.0.1:8000/api/pharmacy-orders/<pk>.<format>/ (name='pharmacyorder-detail')
+
+Ward Admissions
+
+    Ward Admission List: http://127.0.0.1:8000/api/ward-admissions/ (name='wardadmissiondischarge-list')
+    Ward Admission List with Format: http://127.0.0.1:8000/api/ward-admissions.<format>/ (name='wardadmissiondischarge-list')
+    Ward Admission Detail: http://127.0.0.1:8000/api/ward-admissions/<pk>/ (name='wardadmissiondischarge-detail')
+    Ward Admission Detail with Format: http://127.0.0.1:8000/api/ward-admissions/<pk>.<format>/ (name='wardadmissiondischarge-detail')
+
+Communications
+
+    Communication List: http://127.0.0.1:8000/api/communications/ (name='communication-list')
+    Communication List with Format: http://127.0.0.1:8000/api/communications.<format>/ (name='communication-list')
+    Communication Detail: http://127.0.0.1:8000/api/communications/<pk>/ (name='communication-detail')
+    Communication Detail with Format: http://127.0.0.1:8000/api/communications/<pk>.<format>/ (name='communication-detail')
+
+Access
+
+    Access List: http://127.0.0.1:8000/api/accesses/ (name='access-list')
+    Access List with Format: http://127.0.0.1:8000/api/accesses.<format>/ (name='access-list')
+    Access Detail: http://127.0.0.1:8000/api/accesses/<pk>/ (name='access-detail')
+    Access Detail with Format: http://127.0.0.1:8000/api/accesses/<pk>.<format>/ (name='access-detail')
+
+Recommendations
+
+    Recommendation List: http://127.0.0.1:8000/api/recommadtions/ (name='recommadtion-list')
+    Recommendation List with Format: `http://127.0.0.1:8000/api/recommadtions.<format
